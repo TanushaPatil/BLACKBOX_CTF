@@ -1,0 +1,1 @@
+TECH{reverse_the_blackbox}
