@@ -1,34 +1,19 @@
-# BLACKBOX CTF — The Broken License
+# BLACKBOX CTF
 
-A beginner-friendly reverse-engineering CTF challenge created for cybersecurity domain recruitment.
+A beginner-friendly Reverse Engineering CTF challenge based on analyzing a Windows executable and understanding its license validation logic.
 
----
+## Challenge
 
-## Challenge Information
+**Category:** Reverse Engineering  
+**Difficulty:** Easy
 
-| Field | Details |
-|---|---|
-| Challenge | The Broken License |
-| Category | Reverse Engineering |
-| Difficulty | Easy / Medium |
-| Flag Format | `TECH{...}` |
-| Challenge File | `blackbox.exe` |
+The challenge provides a Windows executable called `blackbox.exe`.
 
----
+The objective is to analyze the binary, understand how the license key is validated, recover the correct key, and obtain the flag.
 
-## Description
+## Challenge Flow
 
-A software activation program has been recovered from an old development machine.
+Run the executable:
 
-The original source code is unavailable.
-
-Your task is to reverse engineer the provided executable, understand its license-validation logic, recover the valid license key, and obtain the hidden flag.
-
----
-
-## Objective
-
-Reverse engineer:
-
-```text
-blackbox.exe
+```powershell
+.\blackbox.exe
